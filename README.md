@@ -69,14 +69,20 @@
 
   ## Data Preparation:
   
-  For data preparation I converted Item_Fat_Content to a binary metric for easier imputation. 
+  The data was explored for missing, duplicated, and outlying data. We discovered there were no duplicates, but there were missing values in Item_Fat_Content and Outlet_Size. Item_Fat_Content was encoded into binary values for easier imputation and the missing in Outlet_Size were replaced with the most frequent data within the column. 
+  Next, the catagorical columns were converted into numerical ones using one hot encoding. This allows the variables to be easily used by our machine learning model.
   
 
 # Visualization
+## Total outlet sales by item type:
+![image](https://user-images.githubusercontent.com/93495868/225975313-d2fe4136-aebc-4dce-a977-129853006290.png)
 
   
 
-# Results
+# Results:
 
 
-# Conclusion
+# Conclusion:
+
+
+# Limitations of the model:
