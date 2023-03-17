@@ -70,14 +70,16 @@
   ## Data Preparation:
   
   The data was explored for missing, duplicated, and outlying data. We discovered there were no duplicates, but there were missing values in Item_Fat_Content and Outlet_Size. Item_Fat_Content was encoded into binary values for easier imputation and the missing in Outlet_Size were replaced with the most frequent data within the column. 
-  Next, the catagorical columns were converted into numerical ones using one hot encoding. This allows the variables to be easily used by our machine learning model.
+  Next, the catagorical columns were converted into numerical ones using one hot encoding. This allows the variables to be easily used by our machine learning model. 'Item_Identifier', 'Outlet_Identifier', 'Outlet_Establishment_Year' were dropped upon splitting data for our feature. The justification here was these 
   
 
 # Visualization
-## Total outlet sales by item type:
+## What type of items tend to generate the most sales?
 ![image](https://user-images.githubusercontent.com/93495868/225975313-d2fe4136-aebc-4dce-a977-129853006290.png)
 
-  
+## How did item MRP trend with item sales with item visibility?  
+![image](https://user-images.githubusercontent.com/93495868/225976279-7f940ede-9226-4ace-bf74-345b1301f5ba.png)
+
 
 # Results:
 
