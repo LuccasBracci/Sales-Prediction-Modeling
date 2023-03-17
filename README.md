@@ -65,14 +65,18 @@
     </tbody>
             </table>
   
+# Methodology
 
-Visuals
+  ## Data Preparation:
+  
+  For data preparation I converted Item_Fat_Content to a binary metric for easier imputation. 
+  
+
+# Visualization
+
+  
+
+# Results
 
 
-Methodology
-
-
-Results
-
-
-Conclusion
+# Conclusion
