@@ -1,4 +1,4 @@
-#Sales Predictions
+# Sales Predictions
 
 ## Creating a model for sales predictions
 
