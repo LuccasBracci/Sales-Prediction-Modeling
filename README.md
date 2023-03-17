@@ -1,2 +1,18 @@
-# Sales-Prediction-Modeling
-Sales analysis and modeling for proper outlet sales prediction
+#Sales Predictions
+
+## Creating a model for sales predictions
+
+
+Data
+
+
+Visuals
+
+
+Methodology
+
+
+Results
+
+
+Conclusion
