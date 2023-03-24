@@ -102,8 +102,11 @@ Starchy foods being the highest generate more consistent sales and it can be inf
 
 # Conclusion:
 
+### 
 
 
 # Limitations of the model:
+
+### This model is intended to predict outlet sales within +/- $738.32. Results only work on 
 
 	
