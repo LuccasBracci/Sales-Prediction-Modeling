@@ -87,7 +87,7 @@ Starchy foods being the highest generate more consistent sales and it can be inf
 
 
 
-# Results:
+# Results
 
 ## The results of the Decision Tree Regression model:
 
@@ -98,12 +98,12 @@ Starchy foods being the highest generate more consistent sales and it can be inf
 | R2| 0.59        |
 | RMSE| 1,057.44      |
 
-## Explaination:
+## Explaination
 
 ### This model is intended to predict outlet sales within +/- $738.32. This is the best possible range of this model and should provide minimal impact to final results when configuring to new data when predicting sales.
 
 
-# Limitations of the model:
+# Limitations of the model
 
 ### Although the accuracy is not perfect with room for improvement, the R2 score suggests the model explains ~%59 variance in outlet sales data. %41 of variance is not being captured by the model and it is worth exploring additional ways or alternative machine learning algorithms to achieve higher accuracy.
 
