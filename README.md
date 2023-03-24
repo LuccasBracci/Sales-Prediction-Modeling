@@ -70,7 +70,7 @@
   ## Data Preparation:
   
   The data was explored for missing, duplicated, and outlying data. We discovered there were no duplicates, but there were missing values in Item_Fat_Content and Outlet_Size. Item_Fat_Content was encoded into binary values for easier imputation and the missing values in Outlet_Size were replaced with the most frequent data within the column. Most Frequen imputation ensures the distribution of data in a column that is not altered in any significant way. Mean imputation does not diseminate bias among the dataset as it preserves the sample size and works well with normally distributed variables.
-  Next, the catagorical columns were converted into numerical ones using one hot encoding. This allows the variables to be easily used by our machine learning model. 'Item_Identifier', 'Outlet_Identifier', 'Outlet_Establishment_Year' were dropped upon splitting data for our feature. The justification here was these columns were not relevant for analysis or modeling and do not pose a strong relationship with predicting outlet sales.
+  Next, the catagorical columns were converted into numerical ones using one hot encoding. This allows the variables to be easily used by our machine learning model. 'Item_Identifier', 'Outlet_Identifier', 'Outlet_Establishment_Year' were excluded when training the model. The justification here was these columns were not relevant for analysis or modeling and do not pose a strong relationship with predicting outlet sales.
   
 
 # Visualization
