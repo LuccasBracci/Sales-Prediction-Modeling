@@ -77,18 +77,33 @@
 ## What type of items tend to generate the most sales?
 ![image](https://user-images.githubusercontent.com/93495868/225975313-d2fe4136-aebc-4dce-a977-129853006290.png)
 
-### We can extrapolate that high selling products are a popular commodity for customers. Starchy foods being the highest generate more consistent sales and it can be infered thay it is always in high demand among consumers.
+### We can extrapolate that starchy food products are a popular commodity for customers. 
+Starchy foods being the highest generate more consistent sales and it can be infered thay it is always in high demand among consumers.
 
 ## How did item MRP trend with item sales with item visibility?  
 ![image](https://user-images.githubusercontent.com/93495868/225976279-7f940ede-9226-4ace-bf74-345b1301f5ba.png)
 
-### This graph show the relationship of Item 
+### This graph shows that items of a higher mrp tend to generate more sales, however the higher density of items are within $75 and $150. Visually this graph demonstrates that item visibility does not have a strong contribution to item sales.
+
+
 
 # Results:
 
-  From
+| Metrics      | Score |
+| ----------- | ----------- |
+| MAE     |   738.32    |
+| MSE| 1,118,185.97       |
+| R2| 0.59        |
+| RMSE| 1,057.44      |
+
+### The MAE of 738.32 suggests that the model's predictions have an error of $738.32. This is the best possible range of this model and further refining of parameters may give better results. 
+
+## 
 
 # Conclusion:
 
 
+
 # Limitations of the model:
+
+	
