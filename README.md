@@ -100,15 +100,15 @@ Starchy foods being the highest generate more consistent sales and it can be inf
 
 ### The MAE of 738.32 suggests that the model's predictions have an error of $738.32. This is the best possible range of this model and further refining of parameters may give better results.
 
-##
+## 
 
 # Conclusion:
 
-### 
+###  This model is intended to predict outlet sales within +/- $738.32.  
 
 
 # Limitations of the model:
 
-### This model is intended to predict outlet sales within +/- $738.32. Results work primarily on data relevant to an item
+### Although the accuracy is not perfect with room for improvement, the R2 score suggests the model explains ~%59 variance in outlet sales data. %41 of variance is not being captured by the model and it is worth exploring additional ways or alternative machine learning algorithms to achieve higher accuracy.
 
 	
